@@ -1,0 +1,61 @@
+body{
+    position: relative;
+}
+
+.text-cta{
+    color: #FADC38 !important;   
+    border-radius: 10px;
+}
+
+#header img{
+    width: 80px;
+}
+
+#carousel{
+    position: relative;
+}
+
+.carousel-inner img{
+    object-fit: cover;    
+    width: 100vw;
+    height: 75vh;
+}
+
+#carousel .overlay{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    z-index: 1;
+}
+
+#carousel .overlay .container,
+#carousel .overlay .row{
+    height: 100%;
+}
+
+.card-img-top{
+    object-fit: cover;       
+    height: 280px;   
+}
+
+#lugar_fecha{
+    background: #474747;
+    color: white;
+}
+
+
+#lugar_fecha img{
+    width: 100%;
+}
+
+#footer{
+    background: #282828;
+}
+
+#footer a{
+    color: white;
+}
